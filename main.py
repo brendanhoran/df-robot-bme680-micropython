@@ -1,4 +1,4 @@
-# Pure demo, total crab code
+# Pure demo, total crap code
 # this is just my notes really 
 # needs 5mins for gas sensor to stable
 
