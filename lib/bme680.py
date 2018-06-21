@@ -1,3 +1,7 @@
+# Taken from upstream pimoroni
+# https://github.com/pimoroni/bme680
+# unmodified 
+
 from constants import *
 import math
 import time

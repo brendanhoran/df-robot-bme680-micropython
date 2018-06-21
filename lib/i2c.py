@@ -1,3 +1,7 @@
+# custom I2C module taken from upstream.
+# https://github.com/gkluoe/bme680/blob/master/library/bme680/i2c.py
+# For use with the BM680 sensor on micropython
+# changed the method write_byte_data() to return bytes
 
 try:
     from machine import I2C

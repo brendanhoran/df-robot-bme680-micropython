@@ -1,9 +1,12 @@
+#  Taken from upstream pimoroni
+# https://github.com/pimoroni/bme680
+# Set the only possible I2C address for the DF-Robot sensor 
+
 # BME680 General config
 POLL_PERIOD_MS = 10
 
-# BME680 I2C addresses
-I2C_ADDR_PRIMARY = 0x76
-I2C_ADDR_SECONDARY = 0x77
+# DF-Robot BME680 sensor only has one I2C address
+I2C_ADDR_PRIMARY = 0x77
 
 # BME680 unique chip identifier
 CHIP_ID = 0x61
